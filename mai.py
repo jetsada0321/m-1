@@ -57,10 +57,10 @@ ki5.log("Auth Token : " + str(gye.authToken))
 channelToken = ki5.getChannelResult()
 ki5.log("Channel Token : " + str(channelToken))
 
-ki6 = LINE()
-ki6.log("Auth Token : " + str(gye.authToken))
-channelToken = ki6.getChannelResult()
-ki6.log("Channel Token : " + str(channelToken))
+#ki6 = LINE()
+#ki6.log("Auth Token : " + str(gye.authToken))
+#channelToken = ki6.getChannelResult()
+#ki6.log("Channel Token : " + str(channelToken))
 
 #kalo mau login menggunakan token
 #gunakan disini hapus tanda pagarnya 
@@ -68,9 +68,9 @@ ki6.log("Channel Token : " + str(channelToken))
 #di dalam tanda LINE ("TOKEN MU ")
 #gye = LINE("Et6qM8UeTce5bGsZG4te.ee6vQU/1ppqr93nt9QLUZG.b5fsCbuxW7zZRtrK5U/74k/53Abd5dWPxfdtLy9bL9I=")
 #ais = LINE("Etska0dbjsHvPgZKwmj9.EikS5M3O+L4fOqxjjVgLsq.KlWfvmGVaXdM0yvKM8WGKARpcbAbiKVF9yORPt8QBJw=")
-#ki2 = LINE("EtQsqzdJMWn73m72Gup0.OdjJmVnqXLeaZxpJzxDMOa.Z+6ApCht+0H1NeyX50QMD0Yq8oIhYyJ14Yg2yoM/tfc=")
-#ki3 = LINE("EtDOOeYj4Rvl5PVfOEaa.ETpCu8czFapUIJQDqIA82G.tcOaI+VmHhWwMbyDL/7yXupWfdIvUJh80yWzu/UJXp8=")
-#ki4 = LINE("EtWyu42OHWKSaxPHY3yd.jTri3xzV4E2Z1xvWxjTrRq.s1oy5gbYMT2haZV7l6yzV0bp5gONcnu+bGSSJ1mbT0c=")
+ki2 = LINE("EtQsqzdJMWn73m72Gup0.OdjJmVnqXLeaZxpJzxDMOa.Z+6ApCht+0H1NeyX50QMD0Yq8oIhYyJ14Yg2yoM/tfc=")
+ki3 = LINE("EtDOOeYj4Rvl5PVfOEaa.ETpCu8czFapUIJQDqIA82G.tcOaI+VmHhWwMbyDL/7yXupWfdIvUJh80yWzu/UJXp8=")
+ki4 = LINE("EtWyu42OHWKSaxPHY3yd.jTri3xzV4E2Z1xvWxjTrRq.s1oy5gbYMT2haZV7l6yzV0bp5gONcnu+bGSSJ1mbT0c=")
 
 KAC = [gye,ais,ki2,ki3,ki4,ki5,ki6]
 GUE = [ais,ki2,ki3,ki4,ki5,ki6] # ini jangan luh hapus peak ini fungsi Ciak alias kick
@@ -81,7 +81,7 @@ ki2MID = ki2.profile.mid
 ki3MID = ki3.profile.mid
 ki4MID = ki4.profile.mid
 ki5MID = ki5.profile.mid
-ki6MID = ki6.profile.mid
+#ki6MID = ki6.profile.mid
 Bots = [gyeMID,aisMID,ki2MID,ki3MID,ki4MID,ki5MID,ki6MID] #ini jangan dinrubah Gunanya agar bot tidak saling kick
 creator = ["u104e95aaefb53cf411f77353f6a96ece"]
 Owner = ["u104e95aaefb53cf411f77353f6a96ece"]
@@ -169,12 +169,12 @@ def sendMessageWithMention(to, mid):
         
 def helpmessage():
     helpMessage = "        Help1" + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
+                  "╭══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╮" + "\n" + \
                   "║͜͡☆➣ Help1 " + "\n" + \
                   "║͜͡☆➣ Help2 " + "\n" + \
                   "║͜͡☆➣ Help3 " + "\n" + \
-                  "╰════════╬♥╬════════╯" + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
+                  "╰══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╯" + "\n" + \
+                  "╭══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╮" + "\n" + \
                   "║͜͡☆➣ แทค (แทคทั้งห้อง)" + "\n" + \
                   "║͜͡☆➣ เข้ามา. ( สั่งบอทเข้าห้อง ) " + "\n" + \
                   "║͜͡☆➣ ออก. (สั่งบอทออก) " + "\n" + \
@@ -191,15 +191,15 @@ def helpmessage():
                   "║͜͡☆➣ เรา " + "\n" + \
                   "║͜͡☆➣ รายชื่อคนในห้อง " + "\n" + \
                   "║͜͡☆➣ เชคบอท " + "\n" + \
-                  "╰════════╬♥╬════════╯" + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Maibotline " + "\n" + \
-                  "╰════════╬♥╬════════╯"
+                  "╰══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╯" + "\n" + \
+                  "╭════════╬🐯╬════════╮" + "\n" + \
+                  "║͜͡☆➣ ⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣ " + "\n" + \
+                  "╰════════╬🐯╬════════╯"
     return helpMessage
     
 def helptexttospeech():
     helpTextToSpeech =   " Help2 " + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
+                  "╭══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╮" + "\n" + \
                   "║͜͡☆➣ Pro on/off" + "\n" + \
                   "║͜͡☆➣ Pt on/off" + "\n" + \
                   "║͜͡☆➣ Qr on/off" + "\n" + \
@@ -212,9 +212,9 @@ def helptexttospeech():
                   "║͜͡☆➣ Read on/off" + "\n" + \
                   "║͜͡☆➣ Dm on/off" + "\n" + \
                   "║͜͡☆➣ link on/off" + "\n" + \
-                  "╰════════╬♥╬════════╯" + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
-                  "║͜͡☆➣ คนสร้างห้อง" + "\n" + \
+                  "╰══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╯" + "\n" + \
+                  "╭══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╮" + "\n" + \
+                  "║͜͡☆➣ แอดมิน" + "\n" + \
                   "║͜͡☆➣ ไอดีห้อง" + "\n" + \
                   "║͜͡☆➣ ชื่อห้อง" + "\n" + \
                   "║͜͡☆➣ รายชื่อห้อง" + "\n" + \
@@ -230,18 +230,18 @@ def helptexttospeech():
                   "║͜͡☆➣ ปิดอ่าน " + "\n" + \
                   "║͜͡☆➣ ลบเวลาอ่าน " + "\n" + \
                   "║͜͡☆➣ คนอ่าน" + "\n" + \
-                  "╰════════╬♥╬════════╯" + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Maibotline " + "\n" + \
-                  "╰════════╬♥╬════════╯"
+                  "╰══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╯" + "\n" + \
+                  "╭════════╬🐯╬════════╮" + "\n" + \
+                  "║͜͡☆➣ ⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣ " + "\n" + \
+                  "╰════════╬🐯╬════════╯"
     return helpTextToSpeech
     
 def helptranslate():
     helpTranslate =    "   Help3 " + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
-                  "║͜͡☆➣ แบน(ลงคอนแทคที่จะแบน)" + "\n" + \
-                  "║͜͡☆➣ เชคแบน" + "\n" + \
-                  "║͜͡☆➣ ล้างแบน" + "\n" + \
+                  "╭══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╮" + "\n" + \
+                  "║͜͡☆➣ ดำ(ลงคอนแทคที่จะดำ)" + "\n" + \
+                  "║͜͡☆➣ เชคดำ" + "\n" + \
+                  "║͜͡☆➣ ล้างดำ" + "\n" + \
                   "║͜͡☆➣ รีบอท" + "\n" + \
                   "║͜͡☆➣ บอท " + "\n" + \
                   "║͜͡☆➣ มี " + "\n" + \
@@ -259,7 +259,7 @@ def helptranslate():
                   "║͜͡☆➣ รูป @" + "\n" + \
                   "║͜͡☆➣ รูปวีดีโอ @" + "\n" + \
                   "║͜͡☆➣ รูปปก @" + "\n" + \
-                  "║͜͡☆➣ คนสร้างห้อง" + "\n" + \
+                  "║͜͡☆➣ แอดมิน" + "\n" + \
                   "║͜͡☆➣ ไอดีห้อง" + "\n" + \
                   "║͜͡☆➣ ชื่อห้อง" + "\n" + \
                   "║͜͡☆➣ รูปห้อง" + "\n" + \
@@ -269,10 +269,10 @@ def helptranslate():
                   "║͜͡☆➣ #ปิดลิ้ง" + "\n" + \
                   "║͜͡☆➣ เชคห้อง" + "\n" + \
                   "║͜͡☆➣ เตะ @" + "\n" + \
-                  "╰════════╬♥╬════════╯" + "\n" + \
-                  "╭════════╬♥╬════════╮" + "\n" + \
-                  "║͜͡☆➣ Maibotline " + "\n" + \
-                  "╰════════╬♥╬════════╯"
+                  "╰══╬⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣╬══╯" + "\n" + \
+                  "╭════════╬🐯╬════════╮" + "\n" + \
+                  "║͜͡☆➣ ⍣ᎢᎬᎪᎷᏴᎾᎢ⅌ᎷᎫ⍣ " + "\n" + \
+                  "╰════════╬🐯╬════════╯"
     return helpTranslate
 #==============================================================================#
 def backupData():
@@ -393,20 +393,20 @@ def lineBot(op):
                 elif text.lower() == 'เรา':
                     try:
                         arr = []
-                        owner = "u104e95aaefb53cf411f77353f6a96ece"
+                        owner = "u932a268262c0602c011a71c5ee2666b7"
                         creator = gye.getContact(owner)
                         contact = gye.getContact(gyeMID)
                         grouplist = gye.getGroupIdsJoined()
                         contactlist = gye.getAllContactIds()
                         blockedlist = gye.getBlockedContactIds()
-                        ret_ = "╭════════╬♥╬════════╮\n"
+                        ret_ = "╭════════╬📚╬════════╮\n"
                         ret_ += "\n╠ akun : {}".format(contact.displayName)
                         ret_ += "\n╠ group : {}".format(str(len(grouplist)))
                         ret_ += "\n╠ teman : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ Blokir : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠══[ About Selfbot ]"
                         ret_ += "\n╠ Version : Premium"
-                        ret_ += "\n╰════════╬♥╬════════╯\n"
+                        ret_ += "\n╰════════╬📚╬════════╯\n"
                         gye.sendMessage(to, str(ret_))
                     except Exception as e:
                         gye.sendMessage(msg.to, str(e))
@@ -669,7 +669,7 @@ def lineBot(op):
                         ki3.sendContact(to, ki3MID)
                         ki4.sendContact(to, ki4MID)
                         ki5.sendContact(to, ki5MID)
-                        ki6.sendContact(to, ki6MID)
+                        #ki6.sendContact(to, ki6MID)
                 elif text.lower() in ["ออก."]:    
                     #gye.leaveGroup(msg.to)
                     ais.leaveGroup(msg.to)
@@ -677,7 +677,7 @@ def lineBot(op):
                     ki3.leaveGroup(msg.to)
                     ki4.leaveGroup(msg.to)
                     ki5.leaveGroup(msg.to)
-                    ki6.leaveGroup(msg.to)
+                    #ki6.leaveGroup(msg.to)
                 elif text.lower() in ["บาย."]:    
                     gye.leaveGroup(msg.to)
                     ais.leaveGroup(msg.to)
@@ -685,7 +685,7 @@ def lineBot(op):
                     ki3.leaveGroup(msg.to)
                     ki4.leaveGroup(msg.to)
                     ki5.leaveGroup(msg.to)
-                    ki6.leaveGroup(msg.to)
+                    #ki6.leaveGroup(msg.to)
                 elif text.lower() in ["เข้ามา."]:    
                     G = gye.getGroup(msg.to)
                     ginfo = gye.getGroup(msg.to)
@@ -698,7 +698,7 @@ def lineBot(op):
                     ki3.acceptGroupInvitationByTicket(msg.to,Ticket)
                     ki4.acceptGroupInvitationByTicket(msg.to,Ticket)
                     ki5.acceptGroupInvitationByTicket(msg.to,Ticket)
-                    ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
+                    #ki6.acceptGroupInvitationByTicket(msg.to,Ticket)
                     G = gye.getGroup(msg.to)
                     G.preventedJoinByTicket = True
                     gye.updateGroup(G)
@@ -899,7 +899,7 @@ def lineBot(op):
                     urlnya = "http://chart.apis.google.com/chart?chs=480x80&cht=p3&chtt=" + textnya + "&chts=FFFFFF,70&chf=bg,s,000000"
                     gye.sendImageWithURL(msg.to, urlnya)
 #==============================================================================#
-                elif text.lower() == 'คนสร้างห้อง':
+                elif text.lower() == 'แอดมิน':
                     group = gye.getGroup(to)
                     GS = group.creator.mid
                     gye.sendContact(to, GS)
@@ -988,7 +988,7 @@ def lineBot(op):
                         ret_ += "\n╚══[ Total {} Groups ]".format(str(len(groups)))
                         gye.sendMessage(to, str(ret_))
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'ล้างแบน':
+                elif text.lower() == 'ล้างดำ':
                         settings["blacklist"] = {}
                         gye.sendMessage(msg.to,"➲ Done")
                         ais.sendMessage(msg.to,"➲ Done")
@@ -996,8 +996,8 @@ def lineBot(op):
                         ki3.sendMessage(msg.to,"➲ Done")
                         ki4.sendMessage(msg.to,"➲ Done")
                         ki5.sendMessage(msg.to,"➲ Done")
-                        ki6.sendMessage(msg.to,"➲ Done")
-                        ki6.sendMessage(msg.to,"➲ ล้างหมดแล้วครับเจ้านาย")
+                        #ki6.sendMessage(msg.to,"➲ Done")
+                        ki5.sendMessage(msg.to,"➲ ล้างหมดแล้วครับเจ้านาย")
                         
                 elif text.lower() == 'เชคบอท':
                         gye.sendMessage(msg.to,"➲ Mai 1 มาครับเจ้านาย")
@@ -1006,10 +1006,10 @@ def lineBot(op):
                         ki3.sendMessage(msg.to,"➲ Mai 4 มาครับเจ้านาย")
                         ki4.sendMessage(msg.to,"➲ Mai 5 มาครับเจ้านาย")
                         ki5.sendMessage(msg.to,"➲ Mai 6 มาครับเจ้านาย")
-                        ki6.sendMessage(msg.to,"➲ Mai 7 มาครับเจ้านาย")
-                        ki6.sendMessage(msg.to,"➲ ครบครับเจ้านาย")
+                        #ki6.sendMessage(msg.to,"➲ Mai 7 มาครับเจ้านาย")
+                        ki5.sendMessage(msg.to,"➲ ครบครับเจ้านาย")
                         
-                elif text.lower() == 'แบน':
+                elif text.lower() == 'ดำ':
                         settings["wblacklist"] = True
                         gye.sendMessage(msg.to,"ลง Contact")
                         
@@ -1017,7 +1017,7 @@ def lineBot(op):
                         settings["dblacklist"] = True
                         gye.sendMessage(msg.to,"ลง Contact")
 #-------------------------------------------------------------------------------
-                elif text.lower() == 'เชคแบน':
+                elif text.lower() == 'เชคดำ':
                         if settings["blacklist"] == {}:
                             gye.sendMessage(msg.to,"Tidak Ada Banlist")
                         else:
@@ -1074,7 +1074,7 @@ def lineBot(op):
                             gs = ki3.getGroup(msg.to)
                             gs = ki4.getGroup(msg.to)
                             gs = ki5.getGroup(msg.to)
-                            gs = ki6.getGroup(msg.to)
+                            #gs = ki6.getGroup(msg.to)
                            #gye.sendMessage(msg.to,"「 Bye All 」")
                            #gye.sendMessage(msg.to,"「 Sory guys 」")
                             targets = []
@@ -1262,7 +1262,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ais.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ais.updateGroup(G)
@@ -1282,7 +1282,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ais.updateGroup(G)
@@ -1303,7 +1303,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -1322,7 +1322,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -1343,7 +1343,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
@@ -1362,7 +1362,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
@@ -1383,7 +1383,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki4.updateGroup(G)
@@ -1402,7 +1402,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki4.updateGroup(G)
@@ -1423,7 +1423,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1442,7 +1442,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1463,7 +1463,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -1483,7 +1483,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -1505,7 +1505,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
@@ -1525,7 +1525,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
@@ -1547,7 +1547,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki4.updateGroup(G)
@@ -1566,7 +1566,7 @@ def lineBot(op):
                         ki2.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup(op.param1)
                         G.preventedJoinByTicket = True
@@ -1589,7 +1589,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1609,7 +1609,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1631,7 +1631,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ais.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ais.updateGroup(G)
@@ -1651,7 +1651,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ais.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ais.updateGroup(G)
@@ -1673,7 +1673,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
@@ -1693,7 +1693,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
@@ -1715,7 +1715,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki4.updateGroup(G)
@@ -1735,7 +1735,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki4.updateGroup(G)
@@ -1757,7 +1757,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1777,7 +1777,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1799,7 +1799,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ais.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki.updateGroup(G)
@@ -1819,7 +1819,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ais.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki.updateGroup(G)
@@ -1841,7 +1841,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -1861,7 +1861,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -1883,7 +1883,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup
                         G.preventedJoinByTicket = True
                         ki4.updateGroup(G)
@@ -1903,7 +1903,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki4.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki4.updateGroup(G)
@@ -1925,7 +1925,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1945,7 +1945,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = gye.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         gye.updateGroup(G)
@@ -1967,7 +1967,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ais.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki.updateGroup(G)
@@ -1987,7 +1987,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ais.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ais.updateGroup(G)
@@ -2009,7 +2009,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -2029,7 +2029,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki2.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki2.updateGroup(G)
@@ -2051,7 +2051,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
@@ -2071,7 +2071,7 @@ def lineBot(op):
                         ki3.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki4.acceptGroupInvitationByTicket(op.param1,Ticket)
                         ki5.acceptGroupInvitationByTicket(op.param1,Ticket)
-                        ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
+                        #ki6.acceptGroupInvitationByTicket(op.param1,Ticket)
                         G = ki3.getGroup(op.param1)
                         G.preventedJoinByTicket = True
                         ki3.updateGroup(G)
